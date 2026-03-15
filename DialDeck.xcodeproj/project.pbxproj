@@ -1,0 +1,473 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		ACC1001 /* DialDeckApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACCFF834C58D4209B6729C35 /* DialDeckApp.swift */; };
+		ACC1002 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C258B5BE1EE40899F0366A5 /* ContentView.swift */; };
+		ACC1003 /* Prospect.swift in Sources */ = {isa = PBXBuildFile; fileRef = F409615351114AEC9C9452E0 /* Prospect.swift */; };
+		ACC1004 /* CallLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 330C161450254949ACA97697 /* CallLog.swift */; };
+		ACC1005 /* CallScript.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D57CEC8FE4F74BD9AC877 /* CallScript.swift */; };
+		ACC1006 /* Objection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CBE3FDA37CE41F08EDDC108 /* Objection.swift */; };
+		ACC1007 /* FollowUp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 074FF9FE2DEE46FEB4B37B83 /* FollowUp.swift */; };
+		ACC1008 /* CallMetrics.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE192730273142C28C0FD542 /* CallMetrics.swift */; };
+		ACC1009 /* StoreKitManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA22E312F0FD49C792B0421E /* StoreKitManager.swift */; };
+		ACC1010 /* AnalyticsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E305A6C016CB4905A58D9602 /* AnalyticsService.swift */; };
+		ACC1011 /* ProspectService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CB7897A15F54F268D594972 /* ProspectService.swift */; };
+		ACC1012 /* CallTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1931C9D80E544668A8B8B085 /* CallTracker.swift */; };
+		ACC1013 /* MetricsAnalytics.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55951EF8C4004491B4EAE6C5 /* MetricsAnalytics.swift */; };
+		ACC1014 /* NotificationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0E0696F0EAC84910AB297412 /* NotificationManager.swift */; };
+		ACC1015 /* ExportService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E1C09630D8324B99AB82F191 /* ExportService.swift */; };
+		ACC1016 /* ProspectViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71B25B3B1E12400D85EE0311 /* ProspectViewModel.swift */; };
+		ACC1017 /* CallViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EADE32EE61574B36ACB827C0 /* CallViewModel.swift */; };
+		ACC1018 /* MetricsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4055EFF251414DC28EFACCBD /* MetricsViewModel.swift */; };
+		ACC1019 /* ScriptViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1ED11530F63249AA84BB17AF /* ScriptViewModel.swift */; };
+		ACC1020 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 921E79AA1FC74F16BAEF91EE /* HomeView.swift */; };
+		ACC1021 /* ProspectsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E65EAD065A641A6914A5782 /* ProspectsView.swift */; };
+		ACC1022 /* CallSessionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C19DCEBAF99C4D40A591FF97 /* CallSessionView.swift */; };
+		ACC1023 /* ScriptsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30189C6AB15A4C56A716952C /* ScriptsView.swift */; };
+		ACC1024 /* ObjectionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15535987420B4280855694E3 /* ObjectionsView.swift */; };
+		ACC1025 /* MetricsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33988CC6ECE5441896CFB9F3 /* MetricsView.swift */; };
+		ACC1026 /* FollowUpsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D77642B1DDE1484BB3CDF7E9 /* FollowUpsView.swift */; };
+		ACC1027 /* PaywallView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 90260A6C47CE4B12845E1B61 /* PaywallView.swift */; };
+		ACC1028 /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86D4AA9E7EB848BFACDB328A /* OnboardingView.swift */; };
+		ACC1029 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B11864CA8D4149A783468C05 /* SettingsView.swift */; };
+		ACC1030 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = A82D5BD8150741308D8A7C9D /* Info.plist */; };
+		ACC1031 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 4DDEE09CC55047EC9A87E910 /* GoogleService-Info.plist */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		088B3D9A77BF465C8A50673F /* DialDeck.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialDeck.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACCFF834C58D4209B6729C35 /* DialDeckApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialDeckApp.swift; sourceTree = "<group>"; };
+		8C258B5BE1EE40899F0366A5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F409615351114AEC9C9452E0 /* Prospect.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prospect.swift; sourceTree = "<group>"; };
+		330C161450254949ACA97697 /* CallLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallLog.swift; sourceTree = "<group>"; };
+		003D57CEC8FE4F74BD9AC877 /* CallScript.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallScript.swift; sourceTree = "<group>"; };
+		7CBE3FDA37CE41F08EDDC108 /* Objection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Objection.swift; sourceTree = "<group>"; };
+		074FF9FE2DEE46FEB4B37B83 /* FollowUp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUp.swift; sourceTree = "<group>"; };
+		EE192730273142C28C0FD542 /* CallMetrics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallMetrics.swift; sourceTree = "<group>"; };
+		FA22E312F0FD49C792B0421E /* StoreKitManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreKitManager.swift; sourceTree = "<group>"; };
+		E305A6C016CB4905A58D9602 /* AnalyticsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnalyticsService.swift; sourceTree = "<group>"; };
+		3CB7897A15F54F268D594972 /* ProspectService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectService.swift; sourceTree = "<group>"; };
+		1931C9D80E544668A8B8B085 /* CallTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallTracker.swift; sourceTree = "<group>"; };
+		55951EF8C4004491B4EAE6C5 /* MetricsAnalytics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsAnalytics.swift; sourceTree = "<group>"; };
+		0E0696F0EAC84910AB297412 /* NotificationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationManager.swift; sourceTree = "<group>"; };
+		E1C09630D8324B99AB82F191 /* ExportService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExportService.swift; sourceTree = "<group>"; };
+		71B25B3B1E12400D85EE0311 /* ProspectViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectViewModel.swift; sourceTree = "<group>"; };
+		EADE32EE61574B36ACB827C0 /* CallViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallViewModel.swift; sourceTree = "<group>"; };
+		4055EFF251414DC28EFACCBD /* MetricsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsViewModel.swift; sourceTree = "<group>"; };
+		1ED11530F63249AA84BB17AF /* ScriptViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptViewModel.swift; sourceTree = "<group>"; };
+		921E79AA1FC74F16BAEF91EE /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		6E65EAD065A641A6914A5782 /* ProspectsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProspectsView.swift; sourceTree = "<group>"; };
+		C19DCEBAF99C4D40A591FF97 /* CallSessionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallSessionView.swift; sourceTree = "<group>"; };
+		30189C6AB15A4C56A716952C /* ScriptsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScriptsView.swift; sourceTree = "<group>"; };
+		15535987420B4280855694E3 /* ObjectionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectionsView.swift; sourceTree = "<group>"; };
+		33988CC6ECE5441896CFB9F3 /* MetricsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetricsView.swift; sourceTree = "<group>"; };
+		D77642B1DDE1484BB3CDF7E9 /* FollowUpsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FollowUpsView.swift; sourceTree = "<group>"; };
+		90260A6C47CE4B12845E1B61 /* PaywallView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaywallView.swift; sourceTree = "<group>"; };
+		86D4AA9E7EB848BFACDB328A /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		B11864CA8D4149A783468C05 /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		A82D5BD8150741308D8A7C9D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D7F9C9551C004A5CACC38005 /* DialDeck.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DialDeck.entitlements; sourceTree = "<group>"; };
+		4DDEE09CC55047EC9A87E910 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E8B61F3A059B4A5CBD7BA77A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		ROOT_GROUP = {
+			isa = PBXGroup;
+			children = (
+				DIALDECK_GROUP /* DialDeck */,
+				PRODUCTS_GROUP /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		PRODUCTS_GROUP = {
+			isa = PBXGroup;
+			children = (
+				088B3D9A77BF465C8A50673F /* DialDeck.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DIALDECK_GROUP = {
+			isa = PBXGroup;
+			children = (
+				ACCFF834C58D4209B6729C35 /* DialDeckApp.swift */,
+				8C258B5BE1EE40899F0366A5 /* ContentView.swift */,
+				MODELS_GROUP /* Models */,
+				SERVICES_GROUP /* Services */,
+				VIEWMODELS_GROUP /* ViewModels */,
+				VIEWS_GROUP /* Views */,
+				A82D5BD8150741308D8A7C9D /* Info.plist */,
+				D7F9C9551C004A5CACC38005 /* DialDeck.entitlements */,
+				4DDEE09CC55047EC9A87E910 /* GoogleService-Info.plist */,
+			);
+			path = DialDeck;
+			sourceTree = "<group>";
+		};
+		MODELS_GROUP = {
+			isa = PBXGroup;
+			children = (
+				F409615351114AEC9C9452E0 /* Prospect.swift */,
+				330C161450254949ACA97697 /* CallLog.swift */,
+				003D57CEC8FE4F74BD9AC877 /* CallScript.swift */,
+				7CBE3FDA37CE41F08EDDC108 /* Objection.swift */,
+				074FF9FE2DEE46FEB4B37B83 /* FollowUp.swift */,
+				EE192730273142C28C0FD542 /* CallMetrics.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		SERVICES_GROUP = {
+			isa = PBXGroup;
+			children = (
+				FA22E312F0FD49C792B0421E /* StoreKitManager.swift */,
+				E305A6C016CB4905A58D9602 /* AnalyticsService.swift */,
+				3CB7897A15F54F268D594972 /* ProspectService.swift */,
+				1931C9D80E544668A8B8B085 /* CallTracker.swift */,
+				55951EF8C4004491B4EAE6C5 /* MetricsAnalytics.swift */,
+				0E0696F0EAC84910AB297412 /* NotificationManager.swift */,
+				E1C09630D8324B99AB82F191 /* ExportService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		VIEWMODELS_GROUP = {
+			isa = PBXGroup;
+			children = (
+				71B25B3B1E12400D85EE0311 /* ProspectViewModel.swift */,
+				EADE32EE61574B36ACB827C0 /* CallViewModel.swift */,
+				4055EFF251414DC28EFACCBD /* MetricsViewModel.swift */,
+				1ED11530F63249AA84BB17AF /* ScriptViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		VIEWS_GROUP = {
+			isa = PBXGroup;
+			children = (
+				921E79AA1FC74F16BAEF91EE /* HomeView.swift */,
+				6E65EAD065A641A6914A5782 /* ProspectsView.swift */,
+				C19DCEBAF99C4D40A591FF97 /* CallSessionView.swift */,
+				30189C6AB15A4C56A716952C /* ScriptsView.swift */,
+				15535987420B4280855694E3 /* ObjectionsView.swift */,
+				33988CC6ECE5441896CFB9F3 /* MetricsView.swift */,
+				D77642B1DDE1484BB3CDF7E9 /* FollowUpsView.swift */,
+				90260A6C47CE4B12845E1B61 /* PaywallView.swift */,
+				86D4AA9E7EB848BFACDB328A /* OnboardingView.swift */,
+				B11864CA8D4149A783468C05 /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		79A98652F1EA41DDB4FB1390 /* DialDeck */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 60D60C773A984AECA174D9C8 /* Build configuration list for PBXNativeTarget "DialDeck" */;
+			buildPhases = (
+				7825A51D161A48118B079F7B /* Sources */,
+				E8B61F3A059B4A5CBD7BA77A /* Frameworks */,
+				69FA1ACE99A14BA8ACB19C4E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialDeck;
+			productName = DialDeck;
+			productReference = 088B3D9A77BF465C8A50673F /* DialDeck.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D7F962E6906C42728767643E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					79A98652F1EA41DDB4FB1390 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = B040CD95185645E08D07A763 /* Build configuration list for PBXProject "DialDeck" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = ROOT_GROUP;
+			productRefGroup = PRODUCTS_GROUP /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				79A98652F1EA41DDB4FB1390 /* DialDeck */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		69FA1ACE99A14BA8ACB19C4E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC1031 /* GoogleService-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7825A51D161A48118B079F7B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ACC1001 /* DialDeckApp.swift in Sources */,
+				ACC1002 /* ContentView.swift in Sources */,
+				ACC1003 /* Prospect.swift in Sources */,
+				ACC1004 /* CallLog.swift in Sources */,
+				ACC1005 /* CallScript.swift in Sources */,
+				ACC1006 /* Objection.swift in Sources */,
+				ACC1007 /* FollowUp.swift in Sources */,
+				ACC1008 /* CallMetrics.swift in Sources */,
+				ACC1009 /* StoreKitManager.swift in Sources */,
+				ACC1010 /* AnalyticsService.swift in Sources */,
+				ACC1011 /* ProspectService.swift in Sources */,
+				ACC1012 /* CallTracker.swift in Sources */,
+				ACC1013 /* MetricsAnalytics.swift in Sources */,
+				ACC1014 /* NotificationManager.swift in Sources */,
+				ACC1015 /* ExportService.swift in Sources */,
+				ACC1016 /* ProspectViewModel.swift in Sources */,
+				ACC1017 /* CallViewModel.swift in Sources */,
+				ACC1018 /* MetricsViewModel.swift in Sources */,
+				ACC1019 /* ScriptViewModel.swift in Sources */,
+				ACC1020 /* HomeView.swift in Sources */,
+				ACC1021 /* ProspectsView.swift in Sources */,
+				ACC1022 /* CallSessionView.swift in Sources */,
+				ACC1023 /* ScriptsView.swift in Sources */,
+				ACC1024 /* ObjectionsView.swift in Sources */,
+				ACC1025 /* MetricsView.swift in Sources */,
+				ACC1026 /* FollowUpsView.swift in Sources */,
+				ACC1027 /* PaywallView.swift in Sources */,
+				ACC1028 /* OnboardingView.swift in Sources */,
+				ACC1029 /* SettingsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		8FC151F48E2F4966974C2648 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		15CE4691726A4D74A496E2E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		553D98AD0347461B9EBC3FA9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DialDeck/DialDeck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DialDeck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.dialdeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		71691BC35D984D63BA29C9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DialDeck/DialDeck.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = DialDeck/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.appfactory.dialdeck;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B040CD95185645E08D07A763 /* Build configuration list for PBXProject "DialDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FC151F48E2F4966974C2648 /* Debug */,
+				15CE4691726A4D74A496E2E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		60D60C773A984AECA174D9C8 /* Build configuration list for PBXNativeTarget "DialDeck" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				553D98AD0347461B9EBC3FA9 /* Debug */,
+				71691BC35D984D63BA29C9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D7F962E6906C42728767643E /* Project object */;
+}
