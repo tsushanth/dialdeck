@@ -8,6 +8,8 @@
 	<string>DialDeck</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
+	<key>CFBundleIconName</key>
+	<string>AppIcon</string>
 	<key>CFBundleIdentifier</key>
 	<string>$(PRODUCT_BUNDLE_IDENTIFIER)</string>
 	<key>CFBundleInfoDictionaryVersion</key>
@@ -24,12 +26,12 @@
 	<false/>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
-	<key>NSUserTrackingUsageDescription</key>
-	<string>DialDeck uses tracking to personalize your experience and show you relevant ads.</string>
 	<key>NSContactsUsageDescription</key>
 	<string>DialDeck can access your contacts to import prospects quickly.</string>
 	<key>NSMicrophoneUsageDescription</key>
 	<string>DialDeck uses the microphone for call recording features.</string>
+	<key>NSUserTrackingUsageDescription</key>
+	<string>DialDeck uses tracking to personalize your experience and show you relevant ads.</string>
 	<key>UIApplicationSceneManifest</key>
 	<dict>
 		<key>UIApplicationSupportsMultipleScenes</key>
